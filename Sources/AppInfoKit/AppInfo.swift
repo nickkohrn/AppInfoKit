@@ -9,7 +9,7 @@ public struct AppInfo: Equatable {
     public init(
         buildString: String? = nil,
         displayName: String? = nil,
-        localizationIdentifier: String?,
+        localizationIdentifier: String? = nil,
         versionString: String? = nil
     ) {
         self.buildString = buildString
